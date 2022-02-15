@@ -1,0 +1,102 @@
+h1 {color: yellowgreen;}
+h2 {color: darkviolet;}
+h3 {color: forestgreen;
+	text-align: center; 
+	font-size: 50px;}
+table {color: violet;
+	font-size: 35px;}
+ol {color: royalblue; 
+	font-size: 20px;}
+ul {color: hotpink;
+	font-size: 20px;}
+a.quitar-sub{text-decoration: none;}/*elimina subrayado en enlaces FUNCIONA*/
+#kaku {color: royalblue;
+	font-size: 50px;}
+.fulanito {
+	border: dashed 1px black;
+	padding: 5px;
+	display: inline-block;
+	font-size: 35px;
+	width: 100px;
+	height: 110px;
+}
+.carou{
+	width: 600px;
+	height: 300px;
+	align-content: center;
+}		
+.background1{background-color: rgba(255, 255, 255, 0.7);
+padding: 10px 20px 20px 15px;
+height: 15px;
+width: 150px;
+border: solid 3px black;
+text-align: justify;
+}
+footer {color: greenyellow;
+font-size: 25px;}
+#pejota_pepe {color: slateblue;
+font-size: 35px;}
+#jijiji {color: orange;
+font-size: 20px;}
+.logo{position: relative;
+top: 20px;
+left: 30px;
+}
+.Coso{font-size: 150%;/*modifica tamaño tipografia*/
+font-family: tahoma;/*modifica familia tipografica*/
+font-weight: bold;/*modifica grosor de tipografia*/
+font-style: italic;/*modifica estilo tipografia*/
+color: indianred;/*modifica color tipografia*/
+background-color: yellowgreen;/*modifica color fondo tipografia*/
+text-align: center;/*modifica alineacion*/
+text-transform: capitalize;}/*1ra letra Mayuscula */
+.textTop{font-size: 35px;
+font-style: oblique;
+font-family: fantasy;
+font-weight: unset;
+color: skyblue;}
+.textMid{font-size: 30px;
+font-weight: inherit;
+font-style: normal;
+font-family: sans-serif;
+color: rosybrown;}
+.textBot{font-size: 45px;
+font-family: serif;
+font-weight: normal;
+font-style: normal;
+color: seagreen;}
+.estiloLista li{list-style-type: none;/*elimina subrayado en enlaces  NO FUNCIONA */
+display: inline;
+font-size: 50px;
+padding: 30px;
+margin: 50px;
+position: relative;
+bottom: 45px;
+left: 200px;}
+.parallax{background-image: url("../assets/img/original.jpg");
+height: 500px;/*altura */
+background-attachment: fixed;/*parallax */
+background-position: center;/*posicion */
+background-repeat: no-repeat;
+background-size: cover;/*se adapta ancho de pantalla */
+padding: 50px 30px;
+margin-bottom: 30px;
+}
+.parallax2{background-image: url("../assets/img/download.jpg");
+height: 500px;/*altura */
+background-attachment: fixed;/*parallax */
+background-position: center;/*posicion */
+background-repeat: no-repeat;
+background-size: cover;/*se adapta ancho de pantalla */
+padding: 50px 30px;
+margin-bottom: 30px;
+}
+.parallax3{background-image: url("assets/img/sakudunk.jpg");
+height: 300px;
+width: 200px;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 50px 30px;
+margin-bottom: 30px;
+}
